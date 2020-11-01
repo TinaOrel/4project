@@ -1,0 +1,63 @@
+/*Global*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 100%;
+	line-height: 1,7;
+	font-size: 16px;
+	color: blue;
+	font-family: $font-header;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section{
+	padding-top: 96px;
+	padding-bottom: 96px;
+}
+
+/*Variables*/
+
+$color-one: #fed136;
+$font-header: 'Roboto', sans-serif;
+$font-text: 'Poppins', sans-serif;
+
+
+/*Open*/
+
+.welcome{
+	height: 100vh;
+	position: relative;
+	background-image: url(https://images.pexels.com/photos/4246533/pexels-photo-4246533.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.container {}
+.navigation {}
+.logo {}
+.nav {}
+.info-navigation {}
+.header {}
+.page-subtitle {}
+.page-title {}
+.btn {}
+
+/*Services*/
+
+/*Portfolio*/
+
+/*Footer*/
