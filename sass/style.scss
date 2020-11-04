@@ -30,8 +30,9 @@ section{
 /*Variables*/
 
 $color-one: #fed136;
-$font-header: 'Roboto', sans-serif;
-$font-text: 'Poppins', sans-serif;
+$font-header: 'Montserrat', sans-serif;
+$font-text: 'droid-serif', sans-serif;
+$font-add: 'Roboto Slab', serif;
 
 
 /*Welcome*/
@@ -65,6 +66,10 @@ $font-text: 'Poppins', sans-serif;
 	font-weight: 400;
 	line-height: 41px;
 	letter-spacing: 1.3px;
+
+}
+.logo p{
+	font-family: 'Wisdom Script AJ', sans-serif;
 }
 
 .nav ul {
@@ -85,7 +90,8 @@ $font-text: 'Poppins', sans-serif;
 
 		a{
 			text-decoration: none;
-				color: #fff;
+			color: #fff;
+			font-family: $font-header;
 		}
 	}
 }
@@ -105,16 +111,19 @@ $font-text: 'Poppins', sans-serif;
 	letter-spacing: -1px;
 	color: #fff;
 	margin-top: 150px;
+	font-family: $font-text;
 }
 
 .page-title{
 	font-size: 75px;
 	font-weight: 700;
+	font-style: bold;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: -1.88px;
 	color: #fff;
-	margin-top: 52px;
+	margin-top: 52px;	
+	font-family: $font-header;
 }
 
 .btn{
@@ -133,6 +142,7 @@ $font-text: 'Poppins', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
+	font-family: $font-header;
 }
 
 /*Services*/
@@ -148,12 +158,14 @@ $font-text: 'Poppins', sans-serif;
 	justify-content: center;
 	align-items: center;
 	padding-bottom: 47px;
+
 }
 .services-title h2{
 	text-transform: uppercase;
 	font-size: 40px;
 	padding-bottom: 15px;
-
+	font-family: $font-header;
+	font-style: bold;
 }
 .services-title p{
 	font-size: 16px;
@@ -189,6 +201,7 @@ $font-text: 'Poppins', sans-serif;
 	letter-spacing: -0.35px;
 	text-align: center;
 	padding-top: 15px;
+	font-family: $font-add;
 }
 
 /*Portfolio*/
@@ -209,6 +222,7 @@ $font-text: 'Poppins', sans-serif;
 	letter-spacing: -0.45px;
 	text-align: center;
 	padding-top: 30px;
+	font-family: $font-header;
 }
 
 .picture p{
@@ -218,6 +232,8 @@ $font-text: 'Poppins', sans-serif;
 	text-align: center;
 	padding-top: 4px;
 	padding-bottom: 27px;
+	font-family: $font-text;
+	font-style: italic;
 }
 
 .portfolio-title {
@@ -232,10 +248,13 @@ $font-text: 'Poppins', sans-serif;
 	text-transform: uppercase;
 	font-size: 40px;
 	padding-bottom: 15px;
+	font-family: $font-header;
+	font-style: bold;
 
 }
 .portfolio-title p{
 	font-size: 16px;
+	font-family: $font-text;
 	font-style: italic;
 }
 
@@ -250,6 +269,7 @@ $font-text: 'Poppins', sans-serif;
 	font-weight: 400;
 	text-align: left;
 	letter-spacing: -0.35px;
+	font-family: $font-header;
 }
 
 .col-lg-5{

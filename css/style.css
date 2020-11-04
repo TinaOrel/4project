@@ -60,6 +60,10 @@ section {
   letter-spacing: 1.3px;
 }
 
+.logo p {
+  font-family: 'Wisdom Script AJ', sans-serif;
+}
+
 .nav ul {
   list-style-type: none;
   padding: 0;
@@ -81,6 +85,7 @@ section {
 .nav ul li a {
   text-decoration: none;
   color: #fff;
+  font-family: "Montserrat", sans-serif;
 }
 
 .header {
@@ -102,16 +107,19 @@ section {
   letter-spacing: -1px;
   color: #fff;
   margin-top: 150px;
+  font-family: "droid-serif", sans-serif;
 }
 
 .page-title {
   font-size: 75px;
   font-weight: 700;
+  font-style: bold;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: -1.88px;
   color: #fff;
   margin-top: 52px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .btn {
@@ -130,6 +138,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*Services*/
@@ -154,6 +163,8 @@ section {
   text-transform: uppercase;
   font-size: 40px;
   padding-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-style: bold;
 }
 
 .services-title p {
@@ -190,6 +201,7 @@ section {
   letter-spacing: -0.35px;
   text-align: center;
   padding-top: 15px;
+  font-family: "Roboto Slab", serif;
 }
 
 /*Portfolio*/
@@ -210,6 +222,7 @@ section {
   letter-spacing: -0.45px;
   text-align: center;
   padding-top: 30px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .picture p {
@@ -219,6 +232,8 @@ section {
   text-align: center;
   padding-top: 4px;
   padding-bottom: 27px;
+  font-family: "droid-serif", sans-serif;
+  font-style: italic;
 }
 
 .portfolio-title {
@@ -238,10 +253,13 @@ section {
   text-transform: uppercase;
   font-size: 40px;
   padding-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-style: bold;
 }
 
 .portfolio-title p {
   font-size: 16px;
+  font-family: "droid-serif", sans-serif;
   font-style: italic;
 }
 
@@ -255,6 +273,7 @@ section {
   font-weight: 400;
   text-align: left;
   letter-spacing: -0.35px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .col-lg-5 {
