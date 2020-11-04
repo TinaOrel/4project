@@ -246,4 +246,43 @@ section {
 }
 
 /*Footer*/
+.footer {
+  height: 121px;
+}
+
+.footer p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: -0.35px;
+}
+
+.col-lg-5 {
+  margin-top: 54px;
+}
+
+.media {
+  list-style-type: none;
+  margin-top: 40px;
+}
+
+.media li {
+  display: inline-block;
+  font-size: 0;
+}
+
+.circle {
+  width: 41px;
+  height: 40px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  background-color: #222222;
+}
+
+.circle img {
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+}
 /*# sourceMappingURL=style.css.map */
