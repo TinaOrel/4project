@@ -30,7 +30,7 @@ section {
 /*Variables*/
 /*Welcome*/
 .welcome {
-  height: 100vh;
+  height: 729px;
   position: relative;
   background-image: url("https://i.postimg.cc/0262TNVj/Background-Image.jpg");
   background-position: center center;
@@ -101,7 +101,7 @@ section {
   text-align: center;
   letter-spacing: -1px;
   color: #fff;
-  margin: 20px 0px;
+  margin-top: 150px;
 }
 
 .page-title {
@@ -111,7 +111,7 @@ section {
   text-transform: uppercase;
   letter-spacing: -1.88px;
   color: #fff;
-  margin: 20px 0px;
+  margin-top: 52px;
 }
 
 .btn {

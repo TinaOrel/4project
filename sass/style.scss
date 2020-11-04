@@ -37,7 +37,7 @@ $font-text: 'Poppins', sans-serif;
 /*Welcome*/
 
 .welcome{
-	height: 100vh;
+	height: 729px;
 	position: relative;
 	background-image: url('https://i.postimg.cc/0262TNVj/Background-Image.jpg');
 	background-position: center center;
@@ -72,23 +72,22 @@ $font-text: 'Poppins', sans-serif;
 	padding: 0;
 	margin: 0;
 	font-size: 18px;
-    
-        li {
 
-        display: inline-block;
-        color: #fff;
-        margin-right: 15px;
-        position: relative;
-        text-transform: uppercase;
-        font-size: 14px;
-        font-weight: 400;
-        text-align: center;
+	li {
+		display: inline-block;
+		color: #fff;
+		margin-right: 15px;
+		position: relative;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 400;
+		text-align: center;
 
-        a {
-        	text-decoration: none;
-        	color: #fff;
-        }
-    }
+		a{
+			text-decoration: none;
+				color: #fff;
+		}
+	}
 }
 
 .header{
@@ -99,26 +98,26 @@ $font-text: 'Poppins', sans-serif;
 	position: relative;
 }
 
-.page-subtitle {
+.page-subtitle{
 	font-size: 40px;
 	font-style: italic;
 	text-align: center;
 	letter-spacing: -1px;
 	color: #fff;
-	margin: 20px 0px;
+	margin-top: 150px;
 }
 
-.page-title {
+.page-title{
 	font-size: 75px;
 	font-weight: 700;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: -1.88px;
 	color: #fff;
-	margin: 20px 0px;
+	margin-top: 52px;
 }
 
-.btn {
+.btn{
 	min-width: 240px;
 	margin: 24px auto 0 auto;
 	padding: 16px;
@@ -138,11 +137,11 @@ $font-text: 'Poppins', sans-serif;
 
 /*Services*/
 
-.services {
+.services{
 	height: 568px;
 }
 
-.services-title {
+.services-title{
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -164,7 +163,7 @@ $font-text: 'Poppins', sans-serif;
 .icon{
 	width: 68px; 
 	height: 67px;
-	border: 3px solid #fed136;
+	border: 3px solid $color-one;
 	border-radius: 50%;
 	display: block;
 	margin: auto;
